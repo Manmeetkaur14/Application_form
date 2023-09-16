@@ -1,0 +1,78 @@
+*{
+
+    margin: 3px;
+    box-sizing: border-box;
+}
+body{
+    background-color:grey;
+}
+.apply_box{
+    margin-top: 50px;
+    max-width: 900px;
+    border-radius: 12px;
+    border-color: wheat;
+    box-shadow: 4px;
+    padding: 7px;
+    margin:0 auto;
+    background-color: white;
+
+}
+
+.small_box{
+    font-size:18px ;
+}
+
+.container{
+    margin: 0%;
+    padding: 18px;
+    display: grid;
+    grid-template-rows:repeat(auto,minmax(600px,1fr));
+    
+}
+.form_container{
+    
+
+}
+
+
+.form_control :hover{
+    text-decoration:none;
+    color: rgb(89, 200, 234);
+    cursor: pointer;
+
+    
+}
+
+.btn{
+    float: right;
+    padding: 3px 28px;
+    margin: 15px 38px;
+    color: rgb(26, 166, 92);
+    font: bold;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    border-radius: 10px;
+
+
+}
+p{
+    align-items: center;
+}
+
+
+.form_control2{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+.btn.hoover{
+    cursor: pointer;
+    color: black;
+}
